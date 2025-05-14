@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white; 
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+#title-wrapper {
+    text-align: center;
+}
+
+main-wrapper canvas {
+    display: block;
+}
+
+#sketch-holder canvas {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#p5-canvas-container {
+    margin: auto;
+    width: 800px;
+}
